@@ -1,0 +1,794 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+div {
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+.header {
+	background: url(Tajem.img/fon.png), no-repeat;
+	background-size: cover;
+}
+.menu ul {
+	display: flex;
+}
+.menu ul li {
+	display: flex;
+	margin-left: 50px;
+}
+.menu ul li a {
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.menu ul li a:hover {
+	color: #00e0d0;
+	transition: 0.5s all ease;
+}
+.header-top {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.logo {
+	margin: 15px 0px 0px 50px;
+}
+.menu {
+	margin: 36px 50px 0px 0px;
+}
+.center-title {
+	color: #ffffff;
+	font-family: 'Playfair Display', serif;
+	font-size: 32px;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 163px;
+}
+.border {
+	width: 50px;
+	height: 1px;
+	background-color: #00e0d0;
+	margin: 21px auto 30px auto;
+}
+.center-content {
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 24px;
+	margin-left: 414px;
+	margin-right: 415px;
+
+	text-align: center;
+}
+.learn {
+	width: 120px;
+	height: 40px;
+	color: #00e0d0;
+	border: 1px solid #00e0d0;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	background: transparent;
+	font-family: 'Hammersmith One', sans-serif;
+}
+.learn-div {
+	width: 120px; 
+	margin: 50px auto 200px auto;
+}
+.first-radio-h {
+	width: 10px;
+	height: 10px;
+	border: 1px solid #c2c2c2;
+	margin-right: 5px;
+	border-radius: 50%;
+}
+.first-radio-h:hover {
+	background-color: #00e0d0;
+	border-color: #00e0d0;
+	transition: 0.5s all ease;
+}
+.radio-header {
+	display: flex;
+	width: 55px;
+	margin: 0 auto;
+	padding-bottom: 70px;
+}
+@media screen and (min-width:300px) and (max-width: 1024px) {
+	.menu {
+		display: none;
+	}
+	.menu-mobile {
+		display: block;
+		margin-top: 20px;
+		margin-right: 50px;
+	}
+	.menu-mobile label {
+		color: white;
+		font-size: 32px;
+	}
+	.center-content {
+		text-align: center;
+		margin-right: 30px;
+		margin-left: 30px;
+	}
+	.center-title {
+		color: #ffffff;
+		font-family: 'Playfair Display', serif;
+		font-size: 24px;
+		font-weight: 400;
+		text-align: center;
+		margin-top: 163px;
+		text-align: center;
+	}
+}
+
+/* начало стилей к блоку стори  */
+.story {
+	display: flex;
+	justify-content: space-around;
+}
+.right-story {
+	margin-top: 70px;
+	width: 540px;
+}
+.left-story {
+	margin-top: 70px;
+}
+.story-title {
+	width: 135px;
+	height: 16px;
+	color: #413d4b;
+	font-family: "Playfair Display";
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+.right-story p {
+	width: 538px;
+	height: 146px;
+	opacity: 0.75;
+	color: #413d4b;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+}
+#story-div {
+	width: 120px;
+	margin-left: 0;
+}
+#story-button {
+	width: 120px;
+	height: 40px;
+	border: 1px solid #00e0d0;
+	font-family: "Hammersmith One", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	background: transparent;
+}
+@media screen and (min-width:300px) and (max-width: 1024px) {
+	.story {
+		display: flex;
+		flex-direction: column;
+	}
+	.right-story p {
+		text-align: center;
+		margin: 0 auto;
+		width: 400px;
+		padding-top: 30px;
+	}
+	.left-story {
+		margin-left: 150px;
+	}
+	#story-div {
+		margin: 0 auto;
+		padding-top: 80px;
+	}
+	.story-title {
+		text-align: center;
+		margin: 0 auto;
+	}
+}
+/* начало стилей к блоку видео */
+
+.video {
+	width: 100%;
+	background: url(Tajem.img/fon-2.png), no-repeat;
+	background-size: cover;
+	height: 550px;
+}
+/* .video-button {
+	width: 100px;
+	height: 100px;
+	border: 2px solid black;
+	border-radius: 50%;
+}
+.video-button button {
+	width: 100px;
+	height: 100px;
+	background: transparent;
+	border: none;
+} */
+.video-title {
+	color: #ffffff;
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding-top: 62px;
+	text-align: center;
+	padding-bottom: 202px;
+}
+.video img {
+	padding-top: 202px;
+	margin-left: 710px;
+}
+@media screen and (min-width:300px) and (max-width: 1024px) {
+	.video img {
+		margin-left: 190px;
+	}
+}
+
+/* начало стилей к блоку expertise */
+.expertise {
+
+}
+.expertise-top {
+
+}
+.expertise-title {
+	color: #413d4b;
+	font-family: "Playfair Display";
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 72px;
+}
+.expertise-title-small {
+	opacity: 0.75;
+	color: #2f2d35;
+	font-family: "Playfair Display";
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 16px;
+}
+.border-exp {
+	width: 50px;
+	height: 2px;
+	opacity: 0.6;
+	margin: 50px auto;
+	border: 1px solid black;
+}
+.six-block-1 {
+	display: flex;
+	justify-content: space-around;
+	height: 100%;
+	padding-top: 80px;
+}
+.first-block {
+	display: flex;
+	justify-content: space-around;
+	width: 255px;
+	display: block;
+}
+.six-title {
+	color: #413d4b;
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 35px;
+	letter-spacing: 0.7px;
+}
+.six-par {
+	opacity: 0.75;
+	color: #333333;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	text-align: center;
+	padding-top: 25px;
+	letter-spacing: 0.7px;
+}
+.six-block-2 {
+	display: flex;
+	justify-content: space-around;
+	height: 100%;
+	padding-top: 79px;
+	padding-bottom: 101px;
+}
+.first-block img {
+	margin-left: 100px;
+}
+@media screen and (min-width:300px) and (max-width: 1024px) {
+	.six-block-1, .six-block-2 {
+		display: block;
+		margin: 0 auto;
+	}
+	.first-block {
+		margin: 0 auto;
+		padding-top: 20px;
+	}
+}
+
+
+/* начало стилей к блоку meet-team */
+
+.meet-team{
+	width: 100%;
+	background: url(Tajem.img/fon-3.png), no-repeat;
+	background-size: cover;
+
+}
+.meet-team-title {
+	color: #ffffff;
+	font-family: "Playfair Display";
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 71px;
+}
+.meet-team-par {
+	color: #f9f9f9;
+	font-family: "Playfair Display";
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 16px;
+}
+#border-team {
+	border-color: white;
+}
+.team-four-block {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 47px;
+	width: 940px;
+	margin: 0 auto;
+}
+.first-team {
+	display: flex;
+	justify-content: space-between;
+	display: block;
+	width: 220px;
+}
+.first-team-title {
+	color: #ffffff;
+	font-family: "Roboto - white";
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding-top: 23px;
+	text-align: center;
+	margin: 0 auto;
+}
+.first-team-title-small {
+	opacity: 0.7;
+	color: #fafafa;
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+	text-transform: uppercase;
+	padding-top: 12px;
+	text-align: center;
+	margin: 0 auto;
+}
+.meet-team-podtitle {
+	color: #f3f3f3;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	text-align: center;
+	padding-top: 149px;
+}
+#we-are-div {
+	width: 140px;
+	height: 40px;
+	padding-bottom: 84px;
+}
+#padb {
+	/* padding-bottom: 69px; */
+}
+@media screen and (min-width:300px) and (max-width: 1024px) {
+	.team-four-block {
+		display: block;
+		margin: 0 auto;
+		width: 220px;
+	}
+	.first-team {
+		padding-top: 20px;
+	}
+}
+/* начало стилей к блоку our-works */
+
+.our-works {
+	margin-top: 70px;
+}
+.our-works-top{
+	display: flex;
+	justify-content: space-around;
+	
+}
+.our-works-title {
+	color: #413d4b;
+	font-family: "Playfair Display";
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.7px;
+	margin-bottom: 70px;
+}
+.our-works-title-small {
+	color: #413d4b;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 300;
+	letter-spacing: 0.7px;
+	margin-bottom: 70px;
+}
+.our-works-img {
+	margin-left: -1px;
+}
+.test-1 {
+	width: 100%;
+	margin-left: 1px;
+}
+.test-1 img {
+	width: inherit;
+}
+.test-2 {
+	width: 100%;
+	margin-left: 1px;
+	margin-top: -3px;
+}
+.test-2 img {
+	width: inherit;
+}
+.our-works-img-1 {
+	display: flex;
+	width: 100%;
+}
+.our-works-img-2 {
+	display: flex;
+	width: 100%;
+}
+.our-works-img-small-1 {
+	display: flex;
+	width: 100%;
+}
+.our-works-img-small-2 {
+	display: flex;
+	width: 100%;
+}
+.our-works-img-small-3 {
+	display: flex;
+	width: 100%;
+}
+.our-works-img-small-4 {
+	display: flex;
+	width: 100%;
+}
+@media screen and (min-width:300px) and (max-width: 1024px) {
+	.our-works-img-1 {
+		display: flex; ;
+		flex-direction: column;
+	}
+	.our-works-img-small-1 {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	.our-works-img-small-2 {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	.our-works-img-small-3 {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	.our-works-img-small-4 {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	.our-works-img-1 {
+		display: flex;
+		flex-direction: column;
+	}
+	.our-works-img-2 {
+		display: flex;
+		flex-direction: column;
+	}
+	
+}
+/* начало стилей к блоку jane */
+.jane {
+	width: 100%;
+	background: url(Tajem.img/fon-4.png), no-repeat;
+	background-size: cover;
+}
+.jane-title {
+	opacity: 0.9;
+	color: #ffffff;
+	font-family: "Playfair Display";
+	font-size: 100px;
+	font-weight: 400;
+	line-height: 22px;
+	padding-top: 69px;
+	text-align: center;
+}
+.jane-p {
+	opacity: 0.85;
+	color: #ffffff;
+	font-family: "Playfair Display";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	margin-top: 42px;
+	text-align: center;
+	margin-left: 415px;
+	margin-right: 415px;
+}
+.jane-g {
+	color: #ffffff;
+	font-family: "Roboto - Black";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+	text-transform: uppercase;
+	margin-top: 52px;
+	text-align: center;
+}
+.jane-g-small {
+	opacity: 0.7;
+	color: #ffffff;
+	font-family: Roboto;
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 22px;
+	text-transform: uppercase;
+	margin-top: 13px;
+	text-align: center;
+}
+.jane-but-1 {
+	background: transparent;
+	border: none;
+}
+.jane-ph {
+	width: 400px;
+	margin: 0 auto;
+	justify-content: space-between;
+	padding-bottom: 69px;
+}
+.jane-ph img {
+	margin-left: 14px;
+	padding-top: 45px;
+}
+.jane-3 img {
+	margin-top: 20px;
+}
+.jane-but-2 {
+	background: transparent;
+	border: none;
+}
+@media screen and (min-width:300px) and (max-width: 1024px) {
+ 	.jane-p {
+ 		text-align: center;
+ 		margin: 0px 20px 0px 20px;
+ 	}
+}
+/* начало стилей к блоку формс */
+.registry {
+	margin-top: 71px;
+	display: flex;
+	justify-content: space-around;
+}
+.forms {
+	margin-left: 30px;
+}
+.forms form {
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+}
+.forms input {
+	margin-left: 20px;
+	height: 45px;
+	margin-top: 20px;
+}
+.forms textarea {
+	margin-left: 20px;
+	height: 200px;
+	resize: none;
+	margin-top: 20px;
+}
+.forms-title {
+	color: #413d4b;
+	font-family: "Playfair Display";
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-left: 20px;
+}
+.but-foot button {
+	color: #00e0d0;
+	font-family: "Hammersmith One";
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	border: 1px solid #00e0d0;
+	width: 120px;
+	height: 40px;
+	margin-top: 20px;
+	margin-left: 20px;
+	background: transparent;
+}
+.brands-title {
+	color: #413d4b;
+	font-family: "Playfair Display";
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.brands-img {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 335px;
+	height: 350px;
+}
+.brands div {
+	width: px;
+	height: 70px;
+	margin-top: 29px;
+}
+
+@media screen and (min-width:300px) and (max-width: 1024px) {
+	.registry {
+		display: block;
+	}
+	.forms form {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	}
+	.brands {
+		margin-top: 20px;
+	}
+	.brands-title {
+		text-align: center;
+	}
+	.brands-img {
+		margin-left: 50px;
+	}
+}
+/* начало стилей к блоку енд */
+.end {
+	width: 100%;
+	background: url(Tajem.img/fon-5.png), no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 110px;
+}
+.end-1 {
+	width: 260px;
+}
+.end-1-img {
+	padding-top: 70px;
+}
+.end-p {
+	color: #ffffff;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 26px;
+	padding-top: 37px;
+}
+.end-1-end {
+	color: #ffffff;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 26px;
+	text-transform: uppercase;
+	padding-top: 81px;
+}
+.end-2 {
+	padding-top: 90px;
+	width: 270px;
+}
+.end-2-title {
+	color: #ffffff;
+	font-family: "Roboto - Black";
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 26px;
+	text-transform: uppercase;
+}
+.end-2-1 {
+	display: flex;
+	margin-top: 39px;
+	margin-bottom: 27px;
+}
+.end-2-1-p {
+	color: #ffffff;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 26px;
+	margin-left: 10px;
+}
+.end-2-2 {
+	display: flex;
+}
+.end-2-2-p {
+	color: #ffffff;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 26px;
+	margin-left: 10px;
+}
+.end-2 img {
+	width: 19px;
+	height: 19px;
+}
+.end-3 {
+	width: 295px;
+}
+.end-3-title {
+	color: #ffffff;
+	font-family: "Roboto - Black";
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 26px;
+	text-transform: uppercase;
+	padding-top: 90px;
+	padding-bottom: 56px;
+}
+.end-3 form {
+	background: transparent;
+	width: 211px;
+}
+.end-3 input {
+	height: 45px;
+} 
+.end-3-img {
+	margin-left: 10px;
+}
+.end-3-text {
+	color: #ffffff;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 26px;
+	flex-wrap: end;
+	padding-top: 79px;
+}
+@media screen and (min-width:300px) and (max-width: 1024px) {
+	.end {
+		display: block;
+		padding-left: 120px;
+		margin-top: 500px;
+	}
+}
